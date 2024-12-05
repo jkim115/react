@@ -21,7 +21,7 @@ export default class LifeCycle extends Component {
 
 	componentDidMount() {
 		console.log('componentDidMount()');
-		// After render() we'll change the state after 3 seconds
+		// we'll change the state 3 seconds after render()
 		setTimeout(() => {
 			this.setState({
 				currCountry: 'Click the button below',
