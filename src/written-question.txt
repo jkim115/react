@@ -1,0 +1,11 @@
+
+Answer to the questions 2 and 7. 
+
+I believe my response addresses both questions.
+
+A. Once a web browser receives the necessary files including index.html and 
+bundle.js, React creates and maintains a Virtual DOM that corresponds to the actual DOM.
+When the state or props change, React updates the corresponding objects in the 
+Virtual DOM and compares them to the previous virtual DOM using its diffing algorithm.
+After detecting changes, React updates only the changed parts of the actual DOM.
+

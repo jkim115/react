@@ -1,0 +1,14 @@
+.comp {
+	font-family: monospace;
+	color: indigo;
+}
+
+.quote {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.info {
+	font-family: Georgia;
+	color: chocolate;
+}
